@@ -21,6 +21,7 @@ class Todo extends Component {
             onChange={this.props.markCompleteProp.bind(this, id)}
           />
           {title}
+          <button style={buttonStyle}>x</button>
         </p>
       </div>
     );
@@ -30,6 +31,16 @@ class Todo extends Component {
 //proptypes
 Todo.propTypes = {
   todoProp: PropTypes.object.isRequired,
+};
+
+const buttonStyle = {
+  background: "#ff0000",
+  color: "#fff",
+  border: "none",
+  borderRadius: "50%",
+  padding: "5px 9px",
+  cursor: "pointer",
+  float: "right",
 };
 
 export default Todo;
