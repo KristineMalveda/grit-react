@@ -6,7 +6,7 @@ class Todo extends Component {
     return {
       backgroundColor: "#f4f4f4",
       padding: "10px",
-      borderBottom: "2px dotted #ccc",
+      borderBottom: "1px  #ccc dotted",
       textDecoration: this.props.todoProp.completed ? "line-through" : "none",
     };
   }
@@ -21,7 +21,12 @@ class Todo extends Component {
             onChange={this.props.markCompleteProp.bind(this, id)}
           />
           {title}
-          <button style={buttonStyle}>x</button>
+          <button
+            onClick={this.props.deleteTodoProp.bind(this, id)}
+            style={buttonStyle}
+          >
+            x
+          </button>
         </p>
       </div>
     );
@@ -31,6 +36,8 @@ class Todo extends Component {
 //proptypes
 Todo.propTypes = {
   todoProp: PropTypes.object.isRequired,
+  markCompleteProp: PropTypes.func.isRequired,
+  deleteTodoProp: PropTypes.func.isRequired,
 };
 
 const buttonStyle = {

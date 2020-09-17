@@ -14,6 +14,7 @@ class Todos extends Component {
               key={todoItem.id}
               todoProp={todoItem}
               markCompleteProp={this.props.markComplete}
+              deleteTodoProp={this.props.deleteTodo}
             />
           );
         })}
@@ -24,6 +25,8 @@ class Todos extends Component {
 //proptypes
 Todos.propTypes = {
   todos: PropTypes.array.isRequired,
+  markComplete: PropTypes.func.isRequired,
+  deleteTodo: PropTypes.func.isRequired,
 };
 
 export default Todos;
