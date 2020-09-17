@@ -2,10 +2,10 @@ import React, { Component } from "react";
 //import { v4 as uuidv4 } from "uuid";
 import { HashRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import Todos from "./components/Todos.js";
-import Header from "./components/Header.js";
-import AddTodo from "./components/AddTodo.js";
-import About from "./components/About.js";
+import Todos from "./components/Todos";
+import Header from "./components/Header";
+import AddTodo from "./components/AddTodo";
+import About from "./components/About";
 import axios from "axios";
 
 class App extends Component {
