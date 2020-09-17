@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/grit-react/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/grit-react/static/js/main.dde84d2f.chunk.js",
-    "main.js.map": "/grit-react/static/js/main.dde84d2f.chunk.js.map",
+    "main.css": "/grit-react/static/css/main.c9ef39bc.chunk.css",
+    "main.js": "/grit-react/static/js/main.c103a73a.chunk.js",
+    "main.js.map": "/grit-react/static/js/main.c103a73a.chunk.js.map",
     "runtime-main.js": "/grit-react/static/js/runtime-main.059892ae.js",
     "runtime-main.js.map": "/grit-react/static/js/runtime-main.059892ae.js.map",
-    "static/js/2.049355c8.chunk.js": "/grit-react/static/js/2.049355c8.chunk.js",
-    "static/js/2.049355c8.chunk.js.map": "/grit-react/static/js/2.049355c8.chunk.js.map",
+    "static/js/2.bd6fa3a2.chunk.js": "/grit-react/static/js/2.bd6fa3a2.chunk.js",
+    "static/js/2.bd6fa3a2.chunk.js.map": "/grit-react/static/js/2.bd6fa3a2.chunk.js.map",
     "index.html": "/grit-react/index.html",
-    "precache-manifest.4a28ad88e5b11104bcca00738acf6d81.js": "/grit-react/precache-manifest.4a28ad88e5b11104bcca00738acf6d81.js",
+    "precache-manifest.8673f3d01898efbfa291734920f50e17.js": "/grit-react/precache-manifest.8673f3d01898efbfa291734920f50e17.js",
     "service-worker.js": "/grit-react/service-worker.js",
-    "static/css/main.27fd15f6.chunk.css.map": "/grit-react/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.049355c8.chunk.js.LICENSE.txt": "/grit-react/static/js/2.049355c8.chunk.js.LICENSE.txt"
+    "static/css/main.c9ef39bc.chunk.css.map": "/grit-react/static/css/main.c9ef39bc.chunk.css.map",
+    "static/js/2.bd6fa3a2.chunk.js.LICENSE.txt": "/grit-react/static/js/2.bd6fa3a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.059892ae.js",
-    "static/js/2.049355c8.chunk.js",
-    "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.dde84d2f.chunk.js"
+    "static/js/2.bd6fa3a2.chunk.js",
+    "static/css/main.c9ef39bc.chunk.css",
+    "static/js/main.c103a73a.chunk.js"
   ]
 }
